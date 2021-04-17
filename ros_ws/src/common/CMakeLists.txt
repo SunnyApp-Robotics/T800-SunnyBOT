@@ -26,8 +26,6 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/SubEsc.msg"
-  "msg/SubCon.msg"
   "msg/Wheels.msg"
   DEPENDENCIES std_msgs
  )
